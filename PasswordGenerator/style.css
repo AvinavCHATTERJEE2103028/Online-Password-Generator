@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left top, red, yellow, green, blue);
+    color: black;
+}
+
+.container {
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px purple, 8px 8px 0px purple;
+}
+
+.container h1 {
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+
+.inputbox {
+    position: relative;
+}
+
+.inputbox span {
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: black;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.PassBox {
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 8px;
+}
+
+.row {
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p,
+.row label {
+    flex-basis: 100%;
+    font-size: 18px;
+}
+
+.Generatebutton {
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    padding: 12px 24px;
+    color: white;
+    font-size: 18px;
+    margin-block: 8px; /* Adjusted margin */
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Generatebutton:hover {
+    background-color: blue;
+}
