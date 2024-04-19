@@ -9,6 +9,9 @@
 3. Copy to Clipboard: Conveniently copy generated passwords to the clipboard for easy usage.
 4. Responsive Design: Responsive and user-friendly interface that works seamlessly across different devices and screen sizes.
 
+## License
+This project is licensed under the MIT License, which means you are free to use, modify, and distribute the code for both commercial and non-commercial purposes. See the LICENSE file for more details.
+
 
 ## Contact
 If you have any questions or inquiries about the project, you can reach out to the project maintainer at avinavchatterjee63@gmail.com.
